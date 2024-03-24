@@ -32,4 +32,8 @@ formatted_dream_job = pyfiglet.figlet_format(dream_job)
 formatted_dream_city = pyfiglet.figlet_format(dream_city)
 
 # Print the formatted text.
+print_name(formatted_name)
+print_dream_job(formatted_dream_job)
+print_dream_city(formatted_dream_city)
+
 # Print a message wishing the user good luck with their dream.
