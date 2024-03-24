@@ -34,4 +34,4 @@ print_yellow(pyfiglet.figlet_format(dream_job))
 print_orange(pyfiglet.figlet_format(dream_city))
 
 # Print a message wishing the user good luck with their dream in blue color
-print("\033[94m]" + f"Good luck, {name}! You can do it! You will be a/an {dream_job} in {dream_city} in the future! Claim it!")
+print("\033[94m]" + f"Good luck, {name}! You can do it! You will be a/an {dream_job} in {dream_city} in the future! ")
