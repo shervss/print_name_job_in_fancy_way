@@ -1,0 +1,1 @@
+#Purpose: ask the user to input their name, dream job, and dream city to work in. Print them in fancy way.
