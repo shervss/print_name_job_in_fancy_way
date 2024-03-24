@@ -1,11 +1,14 @@
 # Purpose: ask the user to input their name, dream job, and dream city to work in. Print them in fancy way.
 
+# Import necessary libraries: "pyfiglet" and "colorama".
+import pyfiglet
+from colorama import, Fore
+
 # Prompt the user to enter their name, dream job, and dream city.
 name = input("Please enter your name: ")
 dream_job = input("Please enter your dream job: ")
 dream_city = input("Please enter your dream city to work in: ")
 
-# Import necessary libraries: "pyfiglet" and "colorama".
 # Initialize "colorama" for colored text.
 # Define functions for printing text in different colors: "print_green", "print_yellow", and "print_orange".
 # Print the prompts in the desired colors using the defined functions.
