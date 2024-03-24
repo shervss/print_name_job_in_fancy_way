@@ -2,7 +2,10 @@
 
 # Import necessary libraries: "pyfiglet" and "colorama".
 import pyfiglet
-from colorama import, Fore
+from colorama import init, Fore
+
+# Initialize "colorama" for colored text.
+init(autoreset=True)
 
 # Prompt the user to enter their name, dream job, and dream city.
 name = input("Please enter your name: ")
