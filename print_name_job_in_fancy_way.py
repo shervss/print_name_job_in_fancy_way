@@ -37,3 +37,4 @@ print_dream_job(formatted_dream_job)
 print_dream_city(formatted_dream_city)
 
 # Print a message wishing the user good luck with their dream.
+print(f"Good luck, {name}! You can do it! You will be a/an {dream_job} in {dream_city} in the future!")
