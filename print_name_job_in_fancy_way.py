@@ -26,7 +26,10 @@ dream_job = input()
 print_orange = ("Please enter your dream city to work in: ")
 dream_city = input()
 
-# Print the prompts in the desired colors using the defined functions.
 # Use "pyfiglet" to format the entered name, dream job, and dream city.
+formatted_name = pyfiglet.figlet_format(name)
+formatted_dream_job = pyfiglet.figlet_format(dream_job)
+formatted_dream_city = pyfiglet.figlet_format(dream_city)
+
 # Print the formatted text.
 # Print a message wishing the user good luck with their dream.
