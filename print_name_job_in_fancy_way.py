@@ -7,13 +7,25 @@ from colorama import init, Fore
 # Initialize "colorama" for colored text.
 init(autoreset=True)
 
-# Prompt the user to enter their name, dream job, and dream city.
-name = input("Please enter your name: ")
-dream_job = input("Please enter your dream job: ")
-dream_city = input("Please enter your dream city to work in: ")
-
-# Initialize "colorama" for colored text.
 # Define functions for printing text in different colors: "print_green", "print_yellow", and "print_orange".
+def print_green(text):
+    print(Fore.Green + text)
+def print_yellow(text):
+    print(Fore.Yellow + text)
+def print_orangen(text):
+    print(Fore.LIGHTRED_EX + text)
+
+# Prompt the user to enter their name, dream job, and dream city.
+
+print_green = ("Please enter your name: ")
+name = input ()
+
+print_yellow = ("Please enter your dream job: ")
+dream_job = input()
+
+print_orange = ("Please enter your dream city to work in: ")
+dream_city = input()
+
 # Print the prompts in the desired colors using the defined functions.
 # Use "pyfiglet" to format the entered name, dream job, and dream city.
 # Print the formatted text.
